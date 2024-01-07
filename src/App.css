@@ -1,0 +1,42 @@
+@font-face {
+  font-family: mono;
+  src: url("../public/SFMonoMedium.ttf");
+}
+@font-face {
+  font-family: mono-light;
+  src: url("../public/SFMonoLight.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #081426;
+  overflow-x: hidden;
+  font-family: mono;
+  /* color: #64FFDA; */
+  color: #C4D1EC;
+  position: relative;
+  z-index: -9;
+}
+
+#main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding:0 5%;
+}
+
+a{
+  color: #C4D1EC;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  /* height: 2px; */
+}

@@ -1,0 +1,11 @@
+
+.cursor{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#0A192F,#0a2143,#8892B0);
+    /* background-color: #8892B0; */
+    border-radius: 50%;
+    filter: blur(100px);
+    position: absolute;
+    z-index: -5;
+}

@@ -1,0 +1,46 @@
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.left_nav h3{
+    font-size: 23px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px  #C4D1EC;
+    cursor: pointer;
+}
+
+.right_nav{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.right_nav p{
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+}
+
+.right_nav p::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #C4D1EC;
+    position: absolute;
+    left: 0;
+    bottom: -15%;
+    /* border-radius: 50%; */
+    /* filter: blur(1px); */
+    transition: .3s linear all;
+}
+
+.right_nav p:hover::after{
+    width: 100%;
+}
