@@ -2,6 +2,7 @@ import React from 'react'
 import Project from './Project'
 import Project1Video from '../../Project_assets/caraVideo.mp4'
 import Project2Video from '../../Project_assets/ImdbApp.mp4'
+import Project3Video from '../../Project_assets/weatherApp.mp4'
 
 
 const ProjectParent = () => {
@@ -20,10 +21,19 @@ const ProjectParent = () => {
         websiteLink:'https://imdb-app1.netlify.app/',
         sourceCode:'https://github.com/Devanshi-Bilthare/imdb_app'
     }
+
+    const projectData3 = {
+      title:'Weather App',
+      description:"Created a weather app using HTML, CSS, and JavaScript! you can search for the temperature humidity, wind speed, min/max temp, and current weather conditions for any city, state, or country. It's responsive too! Used a weather API for data retrieval.",
+      videoSource:Project3Video,
+      websiteLink:' https://devanshi-bilthare.github.io/weather-app/',
+      sourceCode:'https://github.com/Devanshi-Bilthare/weather-app'
+  }
   return (
     <div>
         <Project projectData={projectData1}/>
         <Project projectData={projectData2}/>
+        <Project projectData={projectData3}/>
     </div>
     
 
