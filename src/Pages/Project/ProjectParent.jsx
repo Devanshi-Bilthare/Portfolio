@@ -31,19 +31,19 @@ const ProjectParent = () => {
         sourceCode:'https://github.com/Devanshi-Bilthare/imdb_app'
     }
 
-    const projectData4 = {
-      title:'Weather App',
-      description:"Created a weather app using HTML, CSS, and JavaScript! you can search for the temperature humidity, wind speed, min/max temp, and current weather conditions for any city, state, or country. It's responsive too! Used a weather API for data retrieval.",
-      videoSource:Project4Video,
-      websiteLink:' https://devanshi-bilthare.github.io/weather-app/',
-      sourceCode:'https://github.com/Devanshi-Bilthare/weather-app'
-  }
+  //   const projectData4 = {
+  //     title:'Weather App',
+  //     description:"Created a weather app using HTML, CSS, and JavaScript! you can search for the temperature humidity, wind speed, min/max temp, and current weather conditions for any city, state, or country. It's responsive too! Used a weather API for data retrieval.",
+  //     videoSource:Project4Video,
+  //     websiteLink:' https://devanshi-bilthare.github.io/weather-app/',
+  //     sourceCode:'https://github.com/Devanshi-Bilthare/weather-app'
+  // }
   return (
     <div>
         <Project projectData={projectData1}/>
         <Project projectData={projectData2}/>
         <Project projectData={projectData3}/>
-        <Project projectData={projectData4}/>
+        {/* <Project projectData={projectData4}/> */}
     </div>
     
 
