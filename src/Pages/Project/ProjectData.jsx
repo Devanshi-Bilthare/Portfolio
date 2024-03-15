@@ -59,7 +59,7 @@ const projectData = [
       img: weather,
       live: "https://devanshi-bilthare.github.io/weather-app/",
       github: "https://github.com/Devanshi-Bilthare/weather-app",
-      skilused: ["JavaScript","HTML","CSS"],
+      skilused: ["JavaScript","HTML","CSS","API Integration"],
       disc: "This is a weather app where you can search for the temperature, humidity, wind speed, min/max temperature, and current weather conditions for any city, state, or country. It's also responsive! I utilized a weather API for data retrieval.",
       type:"frontend"
     },{
@@ -108,8 +108,8 @@ const projectData = [
     },
     {
       img: myPortfolio,
-      live: "https://cara-ecom-store.netlify.app/",
-      github: "https://cara-ecom-store.netlify.app/",
+      live: "https://devanshibilthare.netlify.app/",
+      github: "",
       skilused: ["React","JavaScript","HTML","CSS"],
       disc: "I've crafted my portfolio to exhibit diverse projects and skills, offering insight into my capabilities. Learn more about me through this platform, complete with links to my socials. Explore my journey and discover how I bring creativity and expertise to each endeavor.",
       type:"frontend"
