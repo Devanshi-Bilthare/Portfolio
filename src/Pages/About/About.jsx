@@ -1,31 +1,39 @@
 import React from 'react'
-import Button from '../../Components/Button/Button'
+// import Button from '../../Components/Button/Button'
 import "./About.css"
+import reduxIcon from '../../project-assets/icons8-redux-50.png'
+import nodeIcon from '../../project-assets/icons8-nodejs-32.png'
+import expressIcon from '../../project-assets/icons8-express-js-50.png'
+import gitIcon from '../../project-assets/icons8-git-logo-50.png'
+import mongodbIcon from '../../project-assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png'
+import vscodeIcon from '../../project-assets/icons8-vs-code-50.png'
 
 const About = () => {
+  // const skills = ["ri-java-fill","ri-javascript-fill","ri-nodejs-fill","ri-reactjs-fill","ri-html5-line","ri-css3-line","Responsive Design","JavaScript(ES6+)","Core Java","Data structures","Algorithms","GIT","GitHub","Postman"]
   return (
     <div id="about">
-            {/* <h2>About Me</h2> */}
-            <p>Welcome to my digital space! I'm Devanshi Bilthare, a final year BCA student and passionate <span>frontend developer</span>. My fascination with creating visually compelling and user-centric digital solutions propels me into the ever-evolving realm of <span>web development</span>.</p>
-            <p>In my pursuit of excellence, I've cultivated a strong <span>problem-solving</span> mindset, tackling various challenges that come my way. Beyond the technicalities, my passion lies in the delicate balance of art and functionality. I take pride in weaving together intricate code structures to craft seamless and delightful user experiences.</p>
-            <p>As I navigate my final year of BCA, I find joy in translating my theoretical knowledge into practical, real-world applications. Every project becomes an opportunity to learn, grow, and contribute to the vast landscape of technology.</p>
-            <p>I'm currently <span>open for new opportunities</span> and excited to collaborate on innovative projects. Join me on this exciting journey as I combine creativity, precision, and a love for coding to shape the digital future. Let's build something amazing together!</p>
+          <p>I'm Devanshi Bilthare, a final year BCA student and frontend developer passionate about creating visually compelling digital solutions. With problem-solving skills and a love for art and functionality, I weave intricate code structures for seamless user experiences. Excited for new opportunities, I'm ready to collaborate on innovative projects.</p>
             <div className="skills">
                 <h2>Skills</h2>
                 <div className="skill_btns">
-                    <Button>HTML5</Button>
-                    <Button>CSS3</Button>
-                    <Button>React.Js</Button>
-                    <Button>Redux.Js</Button>
-                    <Button>Node.Js</Button>
-                    <Button>Express.Js</Button>
-                    <Button>Responsive Design</Button>
-                    <Button>JavaScript(ES6+)</Button>
-                    <Button>Core Java</Button>
-                    <Button>Data structures</Button>
-                    <Button>Algorithms</Button>
-                    <Button>GIT</Button>
-                    <Button>GitHub</Button>
+                    {/* {
+                      skills.map((btn)=>(
+                        // <button>{btn}</button>
+                        <button><i className={btn}></i></button>
+                      ))
+                    } */}
+
+                    <button><i class="ri-java-fill"></i></button>
+                    <button><i class="ri-javascript-fill"></i></button>
+                    <button><i class="ri-reactjs-fill"></i></button>
+                    <button><img src={reduxIcon} alt="" /></button>
+                    <button><img src={nodeIcon} alt="" /></button>
+                    <button><img src={expressIcon} alt="" /></button>
+                    <button><i class="ri-html5-fill"></i></button>
+                    <button><i class="ri-css3-fill"></i></button>
+                    <button><img src={gitIcon} alt="" /></button>
+                    <button><img src={mongodbIcon} alt="" /></button>
+                    {/* <button><img src={vscodeIcon} alt="" /></button> */}
                 </div>
             </div>
         </div>

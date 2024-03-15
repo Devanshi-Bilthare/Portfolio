@@ -4,7 +4,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import Sidebar from './Components/Sidebar/Sidebar';
 import About from './Pages/About/About';
-import ProjectParent from './Pages/Project/ProjectParent';
+// import Project from './Pages/Project/Project';
+import ProjectParent from './Pages/Project/ProjectParent'
 import Cursor from './Components/Cursor/Cursor';
 
 function App() {

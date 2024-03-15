@@ -1,11 +1,17 @@
 
 .cursor{
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(#0A192F,#0a2143,#8892B0);
-    /* background-color: #8892B0; */
+    width: 50px;
+    height: 50px;
+    /* background: radial-gradient(#0A192F,#0a2143,#8892B0); */
+    background-color: #C4D1EC;
     border-radius: 50%;
-    filter: blur(100px);
-    position: absolute;
-    z-index: -5;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* filter: blur(100px); */
+    position: fixed;
+    mix-blend-mode: difference;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }

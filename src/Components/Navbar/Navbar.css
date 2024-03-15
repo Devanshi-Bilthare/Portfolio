@@ -1,5 +1,5 @@
 nav{
-    height: 100px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@ nav{
 
 
 .left_nav h3{
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 100;
     letter-spacing: 2px;
     text-shadow: 3px 3px  #C4D1EC;
@@ -23,7 +23,7 @@ nav{
 }
 
 .right_nav p{
-    font-size: 17px;
+    font-size: 23px;
     cursor: pointer;
     position: relative;
 }
@@ -34,13 +34,13 @@ nav{
     height: 2px;
     background-color: #C4D1EC;
     position: absolute;
-    left: 0;
+    left: 10%;
     bottom: -15%;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     /* filter: blur(1px); */
     transition: .3s linear all;
 }
 
 .right_nav p:hover::after{
-    width: 100%;
+    width: 80%;
 }

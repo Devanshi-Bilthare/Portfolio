@@ -11,14 +11,17 @@
     margin-top: 20vh;
 }
 
+.intro p{
+    font-size: 30px;
+}
+
 .page1 .intro h2{
     font-size: 5vw;
-    margin-top: 3vh;
+    margin:3vh 0 0 2vh;
 }
 
 .page1 .intro .para{
     font-size: 1.7vw;
-    font-family: mono-light;
     font-weight: 100px;
     margin:3vh 6vw 0 0;
 }
