@@ -6,7 +6,9 @@ nav{
     align-items: center;
 }
 
-
+.btn{
+    display: none;
+}
 
 .left_nav h3{
     font-size: 25px;
@@ -43,4 +45,15 @@ nav{
 
 .right_nav p:hover::after{
     width: 80%;
+}
+
+@media (max-width:600px) {
+    .right_nav{
+        display: none;
+    }
+
+    .btn{
+        display: block;
+        font-size: 30px;
+    }
 }

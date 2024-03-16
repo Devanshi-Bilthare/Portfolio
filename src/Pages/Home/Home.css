@@ -25,3 +25,23 @@
     font-weight: 100px;
     margin:3vh 6vw 0 0;
 }
+
+@media (max-width:600px) {
+    .page1{
+        padding: 0;
+        margin: 0;
+    }
+    .page1 .intro{
+        padding: 0;
+        width: 100%;
+        margin-top: 10vh;
+    }
+
+   .page1 .intro h2{
+        font-size: 15vw;
+    }
+
+    .page1 .intro .para{
+        font-size: 5vw;
+    }
+}

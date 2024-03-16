@@ -20,11 +20,6 @@
     /* line-height: 25px; */
 }
 
-#about p span{
-    font-weight: 900;
-    color: #dbe5fa;
-}
-
 .skills{
     width: 100%;
     height: fit-content;
@@ -37,6 +32,8 @@
 
 .skill_btns img{
     /* width: 20%; */
+    /* width: 4vw; */
+    height: 50px;
     object-fit: contain;
 }
 
@@ -52,4 +49,27 @@
 
 .skill_btns i{
     font-size: 60px;
+}
+
+@media (max-width:600px) {
+    #about p{
+        width: 100%;
+        margin-top: 5vh;
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .skills h2{
+        font-size: 15vw;
+        margin-top: 0;
+    }
+
+    .skill_btns button{
+        width: 35vw;
+        height: 25vw;
+    }
+
+   .skill_btns{
+    margin: 5vh 0;
+   }
 }

@@ -14,6 +14,7 @@ const Navbar = () => {
         <Link to='/project'><p>Projects</p></Link>
         <Link to="https://drive.google.com/file/d/1a_o3lK87exe28rCHBWoBMZH1XK57iH1Z/view?usp=sharing"><button>Resume</button></Link>
     </div>
+    <div className="btn"><i class="ri-menu-3-line"></i></div>
 </nav>
   )
 }

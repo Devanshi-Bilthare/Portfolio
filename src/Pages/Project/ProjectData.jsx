@@ -18,6 +18,7 @@ import questFamily from '../../project-assets/landing_pages_images/quest_family(
 import F3 from '../../project-assets/landing_pages_images/F3(1).png'
 import marlboro from '../../project-assets/landing_pages_images/Marlbora.png'
 import fashionBook from '../../project-assets/landing_pages_images/fashion_book.jpeg'
+import calculator from '../../project-assets/calculator.png'
 
 
 
@@ -112,6 +113,14 @@ const projectData = [
       github: "",
       skilused: ["React","JavaScript","HTML","CSS"],
       disc: "I've crafted my portfolio to exhibit diverse projects and skills, offering insight into my capabilities. Learn more about me through this platform, complete with links to my socials. Explore my journey and discover how I bring creativity and expertise to each endeavor.",
+      type:"frontend"
+    },
+    {
+      img: calculator,
+      live: "https://devanshi-bilthare.github.io/calculator/",
+      github: "https://github.com/Devanshi-Bilthare/calculator",
+      skilused: ["JavaScript","HTML","CSS"],
+      disc: "This calculator performs various calculations and provides error messages for invalid operations. It offers comprehensive functionality for mathematical operations while alerting users to input errors",
       type:"frontend"
     }
   ];

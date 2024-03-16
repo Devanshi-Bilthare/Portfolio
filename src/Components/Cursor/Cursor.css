@@ -15,3 +15,10 @@
     left: 0;
     z-index: 5;
 }
+
+@media (max-width:600px) {
+   .cursor{
+    display: none;
+   }
+
+}
