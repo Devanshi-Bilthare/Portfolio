@@ -8,11 +8,10 @@
 html,body{
   height: 100%;
   width: 100%;
-  background-color: #15121f;
-  /* background-color: #081426; */
+  /* background-color: #15121f; */
+  background-color: black;
   overflow-x: hidden;
   font-family: syne;
-  /* color: #64FFDA; */
   color: #C4D1EC;
   position: relative;
   z-index: -9;
