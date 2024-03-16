@@ -7,6 +7,7 @@ import expressIcon from '../../project-assets/icons8-express-js-50.png'
 import gitIcon from '../../project-assets/icons8-git-logo-50.png'
 import mongodbIcon from '../../project-assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png'
 import vscodeIcon from '../../project-assets/icons8-vs-code-50.png'
+import Footer from '../../Components/Footer/Footer'
 
 const About = () => {
   // const skills = ["ri-java-fill","ri-javascript-fill","ri-nodejs-fill","ri-reactjs-fill","ri-html5-line","ri-css3-line","Responsive Design","JavaScript(ES6+)","Core Java","Data structures","Algorithms","GIT","GitHub","Postman"]
@@ -36,6 +37,7 @@ const About = () => {
                     {/* <button><img src={vscodeIcon} alt="" /></button> */}
                 </div>
             </div>
+            <Footer/>
         </div>
   )
 }

@@ -47,9 +47,6 @@ p{
     padding:0 3vh;
 }
 
-.projects_container_Landing{
-    align-items: center;
-}
 
 .landing-img{
     width: 40vw;
@@ -80,4 +77,10 @@ p{
     .landing-img{
         width: 90vw;
     }
+
+   .projects_container_landing{
+    height: 90vh;
+    padding-bottom: 10vh;
+   }
+   
 }

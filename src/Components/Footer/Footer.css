@@ -1,0 +1,22 @@
+.footer{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: red; */
+    /* display: flex; */
+    /* justify-content: center; */
+    gap: 5vw;
+    align-items: center;
+    position: absolute;
+    bottom: 5vh;
+    display: none;
+}
+
+.footer a{
+    font-size: 30px;
+}
+
+@media (max-width:600px){
+    .footer{
+        display:flex
+    }
+}
