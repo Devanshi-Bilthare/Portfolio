@@ -19,16 +19,25 @@ import F3 from '../../project-assets/landing_pages_images/F3(1).png'
 import marlboro from '../../project-assets/landing_pages_images/Marlbora.png'
 import fashionBook from '../../project-assets/landing_pages_images/fashion_book.jpeg'
 import calculator from '../../project-assets/calculator.png'
+import prettyBloom from '../../project-assets/prettyBloom.png'
 
 
 
 const projectData = [
     {
-      img: rejouice,
-      live: "https://devanshi-bilthare.github.io/Rejouice/",
-      github: "https://github.com/Devanshi-Bilthare/Rejouice",
+      img: prettyBloom,
+      live: "https://devanshi-bilthare.github.io/pretty-bloom/",
+      github: "https://github.com/Devanshi-Bilthare/pretty-bloom",
+      skilused: ["JavaScript", "GSAP"],
+      disc: "“Pretty Bloom” is a captivating web project where creativity meets technology. Using GSAP animations, I brought elements to life, seamlessly blending smooth transitions and dynamic effects. The minimalist design showcases my work effectively.",
+      type:"animated"
+    },
+    {
+      img: brainspace,
+      live: "https://devanshi-bilthare.github.io/brain_space/",
+      github: "https://github.com/Devanshi-Bilthare/brain_space",
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
-      disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
+      disc: "Brain Space: Developed with a focus on creating captivating animations and a visually appealing user interface. Utilized skills in animation design, UI/UX design, and front-end development to craft an engaging user experience.",
       type:"animated"
     },
     {
@@ -38,14 +47,6 @@ const projectData = [
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "We Think Elastic is a website where I've poured all my creativity and considerable thought. It incorporates GSAP animations and numerous scroll trigger effects. This creative website is designed purely for user satisfaction and showcases my mastery of animations",
       type:"animated" 
-    },
-    {
-      img: brainspace,
-      live: "https://devanshi-bilthare.github.io/brain_space/",
-      github: "https://github.com/Devanshi-Bilthare/brain_space",
-      skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
-      disc: "Brain Space: Developed with a focus on creating captivating animations and a visually appealing user interface. Utilized skills in animation design, UI/UX design, and front-end development to craft an engaging user experience.",
-      type:"animated"
     },
     {
       img: cara,
@@ -122,7 +123,15 @@ const projectData = [
       skilused: ["JavaScript","HTML","CSS"],
       disc: "This calculator performs various calculations and provides error messages for invalid operations. It offers comprehensive functionality for mathematical operations while alerting users to input errors",
       type:"frontend"
-    }
+    },
+    {
+      img: rejouice,
+      live: "https://devanshi-bilthare.github.io/Rejouice/",
+      github: "https://github.com/Devanshi-Bilthare/Rejouice",
+      skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
+      disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
+      type:"animated"
+    },
   ];
 
   export default projectData;
