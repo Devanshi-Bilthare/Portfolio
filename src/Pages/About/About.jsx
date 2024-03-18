@@ -6,7 +6,7 @@ import nodeIcon from '../../project-assets/icons8-nodejs-32.png'
 import expressIcon from '../../project-assets/icons8-express-js-50.png'
 import gitIcon from '../../project-assets/icons8-git-logo-50.png'
 import mongodbIcon from '../../project-assets/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png'
-import vscodeIcon from '../../project-assets/icons8-vs-code-50.png'
+// import vscodeIcon from '../../project-assets/icons8-vs-code-50.png'
 import Footer from '../../Components/Footer/Footer'
 
 const About = () => {

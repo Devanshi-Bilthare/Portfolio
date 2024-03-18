@@ -20,6 +20,7 @@ import marlboro from '../../project-assets/landing_pages_images/Marlbora.png'
 import fashionBook from '../../project-assets/landing_pages_images/fashion_book.jpeg'
 import calculator from '../../project-assets/calculator.png'
 import prettyBloom from '../../project-assets/prettyBloom.png'
+import docs from '../../project-assets/Docs.png'
 
 
 
@@ -56,7 +57,22 @@ const projectData = [
       disc: "Cara is an E-Commerce platform featuring advanced search filters, secure login, individual product pages, and a convenient cart for a personalized and secure shopping experience, ensuring ease of navigation and efficient purchasing.",
       type:"frontend"
     },
-    ,
+    {
+      img: docs,
+      live: "https://docs-drag.netlify.app/",
+      github: "https://github.com/Devanshi-Bilthare/Docs-Project",
+      skilused: ["React","Tailwind CSS","Framer Motion"],
+      disc: "Docs Drag is a dynamic web application designed to streamline document management. Developed using React, Tailwind CSS, and Framer Motion, it offers seamless drag-and-drop functionality for organizing files efficiently. The minimalist interface prioritizes usability, with each card dynamically presenting file details and download options.",
+      type:"frontend"
+    },
+    {
+      img: myPortfolio,
+      live: "https://devanshibilthare.netlify.app/",
+      github: "",
+      skilused: ["React","JavaScript","HTML","CSS"],
+      disc: "I've crafted my portfolio to exhibit diverse projects and skills, offering insight into my capabilities. Learn more about me through this platform, complete with links to my socials. Explore my journey and discover how I bring creativity and expertise to each endeavor.",
+      type:"frontend"
+    },
     {
       img: weather,
       live: "https://devanshi-bilthare.github.io/weather-app/",
@@ -107,14 +123,6 @@ const projectData = [
     },{
       img:fashionBook,
       type:'landing'
-    },
-    {
-      img: myPortfolio,
-      live: "https://devanshibilthare.netlify.app/",
-      github: "",
-      skilused: ["React","JavaScript","HTML","CSS"],
-      disc: "I've crafted my portfolio to exhibit diverse projects and skills, offering insight into my capabilities. Learn more about me through this platform, complete with links to my socials. Explore my journey and discover how I bring creativity and expertise to each endeavor.",
-      type:"frontend"
     },
     {
       img: calculator,
