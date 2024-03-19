@@ -125,14 +125,6 @@ const projectData = [
       type:'landing'
     },
     {
-      img: calculator,
-      live: "https://devanshi-bilthare.github.io/calculator/",
-      github: "https://github.com/Devanshi-Bilthare/calculator",
-      skilused: ["JavaScript","HTML","CSS"],
-      disc: "This calculator performs various calculations and provides error messages for invalid operations. It offers comprehensive functionality for mathematical operations while alerting users to input errors",
-      type:"frontend"
-    },
-    {
       img: rejouice,
       live: "https://devanshi-bilthare.github.io/Rejouice/",
       github: "https://github.com/Devanshi-Bilthare/Rejouice",
