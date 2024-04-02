@@ -26,14 +26,7 @@ import docs from '../../project-assets/Docs.png'
 
 const projectData = [
     {
-      img: prettyBloom,
-      live: "https://devanshi-bilthare.github.io/pretty-bloom/",
-      github: "https://github.com/Devanshi-Bilthare/pretty-bloom",
-      skilused: ["JavaScript", "GSAP"],
-      disc: "“Pretty Bloom” is a captivating web project where creativity meets technology. Using GSAP animations, I brought elements to life, seamlessly blending smooth transitions and dynamic effects. The minimalist design showcases my work effectively.",
-      type:"animated"
-    },
-    {
+      projName:"BrainSpace",
       img: brainspace,
       live: "https://devanshi-bilthare.github.io/brain_space/",
       github: "https://github.com/Devanshi-Bilthare/brain_space",
@@ -42,6 +35,16 @@ const projectData = [
       type:"animated"
     },
     {
+      projName:"PrettyBloom",
+      img: prettyBloom,
+      live: "https://devanshi-bilthare.github.io/pretty-bloom/",
+      github: "https://github.com/Devanshi-Bilthare/pretty-bloom",
+      skilused: ["JavaScript", "GSAP"],
+      disc: "“Pretty Bloom” is a captivating web project where creativity meets technology. Using GSAP animations, I brought elements to life, seamlessly blending smooth transitions and dynamic effects. The minimalist design showcases my work effectively.",
+      type:"animated"
+    },
+    {
+      projName:"We Think Elastic",
       img:hello,
       live: "https://devanshi-bilthare.github.io/we-think-elastic/",
       github: "https://github.com/Devanshi-Bilthare/we-think-elastic",
@@ -50,6 +53,7 @@ const projectData = [
       type:"animated" 
     },
     {
+      projName:"Cara E-Commerce",
       img: cara,
       live: "https://cara-ecom-store.netlify.app/",
       github: "https://cara-ecom-store.netlify.app/",
@@ -58,6 +62,7 @@ const projectData = [
       type:"frontend"
     },
     {
+      projName:"Docs Drag",
       img: docs,
       live: "https://docs-drag.netlify.app/",
       github: "https://github.com/Devanshi-Bilthare/Docs-Project",
@@ -66,6 +71,7 @@ const projectData = [
       type:"frontend"
     },
     {
+      projName:"My Portfolio",
       img: myPortfolio,
       live: "https://devanshibilthare.netlify.app/",
       github: "",
@@ -74,6 +80,7 @@ const projectData = [
       type:"frontend"
     },
     {
+      projName:"Weather App",
       img: weather,
       live: "https://devanshi-bilthare.github.io/weather-app/",
       github: "https://github.com/Devanshi-Bilthare/weather-app",
@@ -125,6 +132,7 @@ const projectData = [
       type:'landing'
     },
     {
+      projName:"ReJouice",
       img: rejouice,
       live: "https://devanshi-bilthare.github.io/Rejouice/",
       github: "https://github.com/Devanshi-Bilthare/Rejouice",

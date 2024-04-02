@@ -24,6 +24,10 @@ h1{
     overflow: hidden;
 }
 
+.proj h2{
+    padding: 1vh 3vh;
+}
+
 img{
     width: 100%;
     height: 40%;

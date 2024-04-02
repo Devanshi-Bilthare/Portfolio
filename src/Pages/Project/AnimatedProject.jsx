@@ -12,6 +12,7 @@ const AnimatedProject = () => {
             project.type === 'animated' ? (
                 <div className="proj" key={index}>
                     <img src={project.img} alt="" />
+                    <h2>{project.projName}</h2>
                     <div className="project_links">
                         <a href={project.live}>Live</a>
                         <a href={project.github}>GitHub</a>
