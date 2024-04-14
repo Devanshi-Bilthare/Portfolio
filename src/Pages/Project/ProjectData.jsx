@@ -21,6 +21,8 @@ import fashionBook from '../../project-assets/landing_pages_images/fashion_book.
 import calculator from '../../project-assets/calculator.png'
 import prettyBloom from '../../project-assets/prettyBloom.png'
 import docs from '../../project-assets/Docs.png'
+import vsCode from '../../project-assets/Vs-code.png'
+import urlShortner from '../../project-assets/url-shortner.png'
 
 
 
@@ -139,6 +141,24 @@ const projectData = [
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
       type:"animated"
+    },
+    {
+      projName:"Url Shortner",
+      img: urlShortner,
+      live: "",
+      github: "https://github.com/Devanshi-Bilthare/url-shortner",
+      skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs"],
+      disc: "In this URL shortener project, users can input long URLs to generate shortened versions. If they attempt to submit without entering anything, a warning message is displayed.",
+      type:"backend"
+    },
+    {
+      projName:"Vs-Code Clone",
+      img: vsCode,
+      live: "",
+      github: "https://github.com/Devanshi-Bilthare/VScode-clone",
+      skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs","File System"],
+      disc: "In this VS Code app, users can create files, read their contents, view a list of files on the left side, update file data, and delete files.",
+      type:"backend"
     },
   ];
 
