@@ -23,6 +23,7 @@ import prettyBloom from '../../project-assets/prettyBloom.png'
 import docs from '../../project-assets/Docs.png'
 import vsCode from '../../project-assets/Vs-code.png'
 import urlShortner from '../../project-assets/url-shortner.png'
+import bookStore from '../../project-assets/BookStore.png'
 
 
 
@@ -141,6 +142,15 @@ const projectData = [
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
       type:"animated"
+    },
+    {
+      projName:"BookStore App",
+      img: bookStore,
+      live: "",
+      github: "",
+      skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs"],
+      disc: "In this BookStore App, you can  create, read, update, and delete books, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
+      type:"backend"
     },
     {
       projName:"Url Shortner",
