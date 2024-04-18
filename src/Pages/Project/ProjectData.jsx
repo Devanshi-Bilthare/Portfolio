@@ -146,8 +146,8 @@ const projectData = [
     {
       projName:"BookStore App",
       img: bookStore,
-      live: "",
-      github: "",
+      live: "https://twitter.com/Devanshihihi/status/1780928825360310701",
+      github: "https://github.com/Devanshi-Bilthare/BookStore",
       skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs"],
       disc: "In this BookStore App, you can  create, read, update, and delete books, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
       type:"backend"
@@ -155,7 +155,7 @@ const projectData = [
     {
       projName:"Url Shortner",
       img: urlShortner,
-      live: "",
+      live: "https://twitter.com/Devanshihihi/status/1771572799464685602",
       github: "https://github.com/Devanshi-Bilthare/url-shortner",
       skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs"],
       disc: "In this URL shortener project, users can input long URLs to generate shortened versions. If they attempt to submit without entering anything, a warning message is displayed.",
@@ -164,7 +164,7 @@ const projectData = [
     {
       projName:"Vs-Code Clone",
       img: vsCode,
-      live: "",
+      live: "https://twitter.com/Devanshihihi/status/1770132605800706079",
       github: "https://github.com/Devanshi-Bilthare/VScode-clone",
       skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs","File System"],
       disc: "In this VS Code app, users can create files, read their contents, view a list of files on the left side, update file data, and delete files.",
