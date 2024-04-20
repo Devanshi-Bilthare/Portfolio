@@ -148,8 +148,8 @@ const projectData = [
       img: bookStore,
       live: "https://twitter.com/Devanshihihi/status/1780928825360310701",
       github: "https://github.com/Devanshi-Bilthare/BookStore",
-      skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs"],
-      disc: "In this BookStore App, you can  create, read, update, and delete books, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
+      skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs","Multer"],
+      disc: "In this BookStore App, you can create, read, update, and delete books, and you can upload a book cover too, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
       type:"backend"
     },
     {
