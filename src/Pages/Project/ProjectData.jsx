@@ -24,7 +24,7 @@ import docs from '../../project-assets/Docs.png'
 import vsCode from '../../project-assets/Vs-code.png'
 import urlShortner from '../../project-assets/url-shortner.png'
 import bookStore from '../../project-assets/BookStore.png'
-
+import tasksList from '../../project-assets/Tasks-list.png'
 
 
 const projectData = [
@@ -150,6 +150,15 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/BookStore",
       skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs","Multer"],
       disc: "In this BookStore App, you can create, read, update, and delete books, and you can upload a book cover too, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
+      type:"backend"
+    },
+    {
+      projName:"Completed Tasks Viewer",
+      img: tasksList,
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7188941670200053761/",
+      github: "https://github.com/Devanshi-Bilthare/tasks-list",
+      skilused: ["MongoDB","Node Js","JavaScript", "CSS","Ejs"],
+      disc: "I've created a completed task project where users can add tasks they've completed. The time of task completion is automatically recorded. Users can edit tasks, but the completion time remains unchanged. Tasks can also be deleted. On the homepage, only today's tasks are displayed. There's a separate page where all previous dates are listed. Users can select a specific date to view all tasks performed on that date.",
       type:"backend"
     },
     {
