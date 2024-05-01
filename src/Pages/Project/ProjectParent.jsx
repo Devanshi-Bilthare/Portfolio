@@ -12,9 +12,9 @@ const ProjectParent = () => {
 
   return (
     <div>
+      <BackendProject/>
         <FrontendProject/>
         <AnimatedProject/>
-        <BackendProject/>
         <LandingPages/>
        <Footer/>
     </div>
