@@ -13,7 +13,7 @@ const About = () => {
   // const skills = ["ri-java-fill","ri-javascript-fill","ri-nodejs-fill","ri-reactjs-fill","ri-html5-line","ri-css3-line","Responsive Design","JavaScript(ES6+)","Core Java","Data structures","Algorithms","GIT","GitHub","Postman"]
   return (
     <div id="about">
-          <p>I'm Devanshi Bilthare, a final year BCA student and frontend developer passionate about creating visually compelling digital solutions. With problem-solving skills and a love for art and functionality, I weave intricate code structures for seamless user experiences. Excited for new opportunities, I'm ready to collaborate on innovative projects.</p>
+          <p>I'm Devanshi Bilthare, a final year BCA student and MERN Stack developer passionate about creating visually compelling digital solutions. With problem-solving skills and a love for art and functionality, I weave intricate code structures for seamless user experiences. Excited for new opportunities, I'm ready to collaborate on innovative projects.</p>
             <div className="skills">
                 <h2>Skills</h2>
                 <div className="skill_btns">

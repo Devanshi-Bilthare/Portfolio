@@ -9,7 +9,7 @@ const Home = () => {
     <div className="intro">
         <p>Hi, My name is</p>
         <h2>Devanshi Bilthare</h2>
-        <p className="para">Dedicated frontend developer focused on creating visually captivating and user-centered digital solutions with precision coding and design excellence.</p>
+        <p className="para">Dedicated MERN Stack developer focused on creating visually captivating and user-centered digital solutions with precision coding and design excellence.</p>
     </div>
 </div>
   <Footer/>
