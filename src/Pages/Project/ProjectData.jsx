@@ -25,6 +25,7 @@ import vsCode from '../../project-assets/Vs-code.png'
 import urlShortner from '../../project-assets/url-shortner.png'
 import bookStore from '../../project-assets/BookStore.png'
 import tasksList from '../../project-assets/Tasks-list.png'
+import funBook from '../../project-assets/funBook.png'
 
 
 const projectData = [
@@ -35,6 +36,7 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/brain_space",
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "Brain Space: Developed with a focus on creating captivating animations and a visually appealing user interface. Utilized skills in animation design, UI/UX design, and front-end development to craft an engaging user experience.",
+      status: "completed",
       type:"animated"
     },
     {
@@ -44,6 +46,7 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/pretty-bloom",
       skilused: ["JavaScript", "GSAP"],
       disc: "“Pretty Bloom” is a captivating web project where creativity meets technology. Using GSAP animations, I brought elements to life, seamlessly blending smooth transitions and dynamic effects. The minimalist design showcases my work effectively.",
+      status: "completed",
       type:"animated"
     },
     {
@@ -53,6 +56,7 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/we-think-elastic",
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "We Think Elastic is a website where I've poured all my creativity and considerable thought. It incorporates GSAP animations and numerous scroll trigger effects. This creative website is designed purely for user satisfaction and showcases my mastery of animations",
+      status: "completed",
       type:"animated" 
     },
     {
@@ -62,6 +66,7 @@ const projectData = [
       github: "https://cara-ecom-store.netlify.app/",
       skilused: ["React","JavaScript","HTML","CSS"],
       disc: "Cara is an E-Commerce platform featuring advanced search filters, secure login, individual product pages, and a convenient cart for a personalized and secure shopping experience, ensuring ease of navigation and efficient purchasing.",
+      status: "completed",
       type:"frontend"
     },
     {
@@ -71,6 +76,7 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/Docs-Project",
       skilused: ["React","Tailwind CSS","Framer Motion"],
       disc: "Docs Drag is a dynamic web application designed to streamline document management. Developed using React, Tailwind CSS, and Framer Motion, it offers seamless drag-and-drop functionality for organizing files efficiently. The minimalist interface prioritizes usability, with each card dynamically presenting file details and download options.",
+      status: "completed",
       type:"frontend"
     },
     {
@@ -80,6 +86,7 @@ const projectData = [
       github: "",
       skilused: ["React","JavaScript","HTML","CSS"],
       disc: "I've crafted my portfolio to exhibit diverse projects and skills, offering insight into my capabilities. Learn more about me through this platform, complete with links to my socials. Explore my journey and discover how I bring creativity and expertise to each endeavor.",
+      status: "completed",
       type:"frontend"
     },
     {
@@ -89,49 +96,64 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/weather-app",
       skilused: ["JavaScript","HTML","CSS","API Integration"],
       disc: "This is a weather app where you can search for the temperature, humidity, wind speed, min/max temperature, and current weather conditions for any city, state, or country. It's also responsive! I utilized a weather API for data retrieval.",
+      status: "completed",
       type:"frontend"
     },{
       img:smoothie,
+      status: "completed",
       type:'landing'
     }
     ,{
       img:webAgency,
+      status: "completed",
       type:'landing'
     },{
       img:codeInk,
+      status: "completed",
       type:'landing'
     },{
       img:beVideo,
+      status: "completed",
       type:'landing'
     },{
       img:comingSoon,
+      status: "completed",
       type:'landing'
     },{
       img:unlimited,
+      status: "completed",
       type:'landing'
     },{
       img:deathNote,
+      status: "completed",
       type:'landing'
     },{
       img:lacoste,
+      status: "completed",
       type:'landing'
     },{
       img:phuket,
+      status: "completed",
       type:'landing'
     },{
       img:lifeAndDeath,
+      status: "completed",
       type:'landing'
     },{
       img:questFamily,
+      status: "completed",
       type:'landing'
     },{
       img:F3,
+      status: "completed",
       type:'landing'
     },{
       img:marlboro,
+      status: "completed",
       type:'landing'
     },{
       img:fashionBook,
+      status: "completed",
       type:'landing'
     },
     {
@@ -141,15 +163,27 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/Rejouice",
       skilused: ["HTML", "CSS", "JavaScript", "GSAP"],
       disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
+      status: "completed",
       type:"animated"
+    },
+    {
+      projName:"FunBook",
+      img: funBook,
+      live: "https://twitter.com/Devanshihihi/status/ completed,1789326526946709694",
+      github: "https://github.com/Devanshi-Bilthare/Social-media",
+      skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Multer","Passport"],
+      disc: "This project allows users to sign up or log in to their accounts. Once logged in, users can create, edit, or delete their posts. They also have the option to reset their password, edit, or delete their profiles. Additionally, users can view posts made by other users.",
+      status: "inprogress",
+      type:"backend"
     },
     {
       projName:"BookStore App",
       img: bookStore,
-      live: "https://twitter.com/Devanshihihi/status/1780928825360310701",
+      live: "https://twitter.com/Devanshihihi/status/ completed,1780928825360310701",
       github: "https://github.com/Devanshi-Bilthare/BookStore",
       skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs","Multer"],
       disc: "In this BookStore App, you can create, read, update, and delete books, and you can upload a book cover too, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
+      status: "completed",
       type:"backend"
     },
     {
@@ -159,24 +193,27 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/tasks-list",
       skilused: ["MongoDB","Node Js","JavaScript", "CSS","Ejs"],
       disc: "I've created a completed task project where users can add tasks they've completed. The time of task completion is automatically recorded. Users can edit tasks, but the completion time remains unchanged. Tasks can also be deleted. On the homepage, only today's tasks are displayed. There's a separate page where all previous dates are listed. Users can select a specific date to view all tasks performed on that date.",
+      status: "completed",
       type:"backend"
     },
     {
       projName:"Url Shortner",
       img: urlShortner,
-      live: "https://twitter.com/Devanshihihi/status/1771572799464685602",
+      live: "https://twitter.com/Devanshihihi/status/ completed,1771572799464685602",
       github: "https://github.com/Devanshi-Bilthare/url-shortner",
       skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs"],
       disc: "In this URL shortener project, users can input long URLs to generate shortened versions. If they attempt to submit without entering anything, a warning message is displayed.",
+      status: "completed",
       type:"backend"
     },
     {
       projName:"Vs-Code Clone",
       img: vsCode,
-      live: "https://twitter.com/Devanshihihi/status/1770132605800706079",
+      live: "https://twitter.com/Devanshihihi/status/ completed,1770132605800706079",
       github: "https://github.com/Devanshi-Bilthare/VScode-clone",
       skilused: ["Node Js","JavaScript", "CSS", "Express","Ejs","File System"],
       disc: "In this VS Code app, users can create files, read their contents, view a list of files on the left side, update file data, and delete files.",
+      status: "completed",
       type:"backend"
     },
   ];
