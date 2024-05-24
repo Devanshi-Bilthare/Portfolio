@@ -140,11 +140,12 @@ const projectData = [
       status: "completed",
       type:'landing'
     },{
-      img:questFamily,
+      img:F3,
       status: "completed",
       type:'landing'
-    },{
-      img:F3,
+    },
+    {
+      img:questFamily,
       status: "completed",
       type:'landing'
     },{
