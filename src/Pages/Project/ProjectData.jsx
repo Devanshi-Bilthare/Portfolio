@@ -170,11 +170,11 @@ const projectData = [
     {
       projName:"FunBook",
       img: funBook,
-      live: "https://twitter.com/Devanshihihi/status/ completed,1789326526946709694",
+      live: "https://social-media-hbjf.onrender.com/",
       github: "https://github.com/Devanshi-Bilthare/Social-media",
-      skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Multer","Passport"],
+      skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Multer","Passport","Nodemailer"],
       disc: "This project allows users to sign up or log in to their accounts. Once logged in, users can create, edit, or delete their posts. They also have the option to reset their password, edit, or delete their profiles. Additionally, users can view posts made by other users.",
-      status: "inprogress",
+      status: "completed",
       type:"backend"
     },
     {
