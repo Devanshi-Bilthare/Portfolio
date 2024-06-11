@@ -18,7 +18,7 @@ import questFamily from '../../project-assets/landing_pages_images/quest_family(
 import F3 from '../../project-assets/landing_pages_images/F3(1).png'
 import marlboro from '../../project-assets/landing_pages_images/Marlbora.png'
 import fashionBook from '../../project-assets/landing_pages_images/fashion_book.jpeg'
-import calculator from '../../project-assets/calculator.png'
+// import calculator from '../../project-assets/calculator.png'
 import prettyBloom from '../../project-assets/prettyBloom.png'
 import docs from '../../project-assets/Docs.png'
 import vsCode from '../../project-assets/Vs-code.png'

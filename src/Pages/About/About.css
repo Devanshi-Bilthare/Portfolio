@@ -52,6 +52,15 @@
     font-size: 60px;
 }
 
+
+
+.leetcode{
+  /* height: 80vh; */
+  width: 85vw;
+  margin:10vh 0;
+}
+
+
 @media (max-width:600px) {
     #about{
         height: fit-content;
@@ -66,8 +75,9 @@
     }
 
     .skills h2{
-        font-size: 15vw;
+        font-size: 7vw;
         margin-top: 0;
+        line-height: 1;
     }
 
     .skill_btns button{
