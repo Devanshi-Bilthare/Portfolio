@@ -168,7 +168,7 @@ const projectData = [
       type:"animated"
     },
     {
-      projName:"FunBook",
+      projName:"PostHive",
       img: funBook,
       live: "https://social-media-hbjf.onrender.com/",
       github: "https://github.com/Devanshi-Bilthare/Social-media",
