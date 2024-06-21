@@ -26,6 +26,7 @@ import urlShortner from '../../project-assets/url-shortner.png'
 import bookStore from '../../project-assets/BookStore.png'
 import tasksList from '../../project-assets/Tasks-list.png'
 import funBook from '../../project-assets/funBook.png'
+import recipeHub from '../../project-assets/recipe1.png'
 
 
 const projectData = [
@@ -168,12 +169,12 @@ const projectData = [
       type:"animated"
     },
     {
-      projName:"PostHive",
-      img: funBook,
-      live: "https://social-media-hbjf.onrender.com/",
-      github: "https://github.com/Devanshi-Bilthare/Social-media",
+      projName:"Recipe Hub",
+      img: recipeHub,
+      live: "https://www.linkedin.com/feed/update/urn:li:activity:7209883794659545091/",
+      github: "https://github.com/Devanshi-Bilthare/recipe-hub",
       skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Multer","Passport","Nodemailer"],
-      disc: "This project allows users to sign up or log in to their accounts. Once logged in, users can create, edit, or delete their posts. They also have the option to reset their password, edit, or delete their profiles. Additionally, users can view posts made by other users.",
+      disc: " Key features include user authentication (sign up/log in), profile customization, followers and posts management, and seamless recipe creation and editing. Users can explore recipes from others, interact by liking, commenting, or saving, and follow other users. The home page highlights recent recipes and new users, fostering a vibrant cooking community.",
       status: "completed",
       type:"backend"
     },
@@ -184,6 +185,16 @@ const projectData = [
       github: "https://github.com/Devanshi-Bilthare/BookStore",
       skilused: ["MongoDB","Node Js","JavaScript", "BootStrap", "Express","Ejs","Multer"],
       disc: "In this BookStore App, you can create, read, update, and delete books, and you can upload a book cover too, ensuring your library is organized just the way you like it. Plus, your book data is securely saved in the app's database, so your collection remains intact even when you reload the app.",
+      status: "completed",
+      type:"backend"
+    },
+    {
+      projName:"PostHive",
+      img: funBook,
+      live: "https://social-media-hbjf.onrender.com/",
+      github: "https://github.com/Devanshi-Bilthare/Social-media",
+      skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Multer","Passport","Nodemailer"],
+      disc: "This project allows users to sign up or log in to their accounts. Once logged in, users can create, edit, or delete their posts. They also have the option to reset their password, edit, or delete their profiles. Additionally, users can view posts made by other users.",
       status: "completed",
       type:"backend"
     },
