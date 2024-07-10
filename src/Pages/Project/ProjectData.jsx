@@ -71,16 +71,6 @@ const projectData = [
       type:"frontend"
     },
     {
-      projName:"Docs Drag",
-      img: docs,
-      live: "https://docs-drag.netlify.app/",
-      github: "https://github.com/Devanshi-Bilthare/Docs-Project",
-      skilused: ["React","Tailwind CSS","Framer Motion"],
-      disc: "Docs Drag is a dynamic web application designed to streamline document management. Developed using React, Tailwind CSS, and Framer Motion, it offers seamless drag-and-drop functionality for organizing files efficiently. The minimalist interface prioritizes usability, with each card dynamically presenting file details and download options.",
-      status: "completed",
-      type:"frontend"
-    },
-    {
       projName:"My Portfolio",
       img: myPortfolio,
       live: "https://devanshibilthare.netlify.app/",
