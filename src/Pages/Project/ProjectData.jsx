@@ -27,6 +27,8 @@ import bookStore from '../../project-assets/BookStore.png'
 import tasksList from '../../project-assets/Tasks-list.png'
 import funBook from '../../project-assets/funBook.png'
 import recipeHub from '../../project-assets/recipe1.png'
+import blog1 from '../../project-assets/blog1.png'
+
 
 
 const projectData = [
@@ -157,6 +159,16 @@ const projectData = [
       disc: "Rejoice is an animated website where I have used Locomotive.js for smooth scrolling, Swiper.js for automatic carousel effects, and GSAP for creative animations.",
       status: "completed",
       type:"animated"
+    },
+    {
+      projName:"Blog Website",
+      img: blog1,
+      live: "https://blog-website-lnmz.onrender.com/",
+      github: "https://github.com/Devanshi-Bilthare/Blog-website",
+      skilused: ["MongoDB","Node Js","JavaScript", "Tailwind", "Express","Ejs","Imagekit","Passport","Nodemailer"],
+      disc: " Key features include user authentication (sign up/log in), profile customization, posts management, and seamless Blog creation and editing. Users can explore Blogs from others, interact by commenting.",
+      status: "completed",
+      type:"backend"
     },
     {
       projName:"Recipe Hub",
