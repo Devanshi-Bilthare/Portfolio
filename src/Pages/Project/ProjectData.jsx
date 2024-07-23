@@ -1,4 +1,3 @@
-import cara from '../../project-assets/cara.png'
 import weather from '../../project-assets/weather.png'
 import myPortfolio from '../../project-assets/myPortfolio.png'
 import rejouice from '../../project-assets/Rejouice.png'
@@ -28,6 +27,7 @@ import tasksList from '../../project-assets/Tasks-list.png'
 import funBook from '../../project-assets/funBook.png'
 import recipeHub from '../../project-assets/recipe1.png'
 import blog1 from '../../project-assets/blog1.png'
+import ECommerce from '../../project-assets/ECommerce.png'
 
 
 
@@ -63,13 +63,12 @@ const projectData = [
       type:"animated" 
     },
     {
-      projName:"Cara E-Commerce",
-      img: cara,
-      live: "https://cara-ecom-store.netlify.app/",
-      github: "https://cara-ecom-store.netlify.app/",
-      skilused: ["React","JavaScript","HTML","CSS"],
-      disc: "Cara is an E-Commerce platform featuring advanced search filters, secure login, individual product pages, and a convenient cart for a personalized and secure shopping experience, ensuring ease of navigation and efficient purchasing.",
-      status: "completed",
+      projName:"E-Commerce",
+      img: ECommerce,
+      live: "https://e-commerceerce.vercel.app/",
+      github: "https://github.com/Devanshi-Bilthare/E-Commerce",
+      skilused: ["React","Context API","antd","Toastify","React Hooks","JavaScript","HTML","Tailwind CSS"],
+      disc: "An e-commerce website designed to provide a seamless shopping experience. The website features a home page with various product categories, a store page listing all available products, and individual product pages with detailed descriptions. Users can add items to their cart and remove them as needed. The project leverages modern web technologies to ensure efficient state and data management, as well as a smooth user interface.",
       type:"frontend"
     },
     {
