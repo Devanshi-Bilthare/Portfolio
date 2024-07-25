@@ -22,7 +22,7 @@ const FrontendProject = () => {
                                 <button key={index}>{skill}</button>
                             ))}
                         </div>
-                        <p>{project.disc}</p>
+                        <p>{project.disc.slice(0,250)}...</p>
                     </div>
                 ) : null 
             ))}
