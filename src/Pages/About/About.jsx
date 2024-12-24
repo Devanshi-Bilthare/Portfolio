@@ -16,52 +16,118 @@ import mongodbIcon from '../../project-assets/icons8-mongodb-a-cross-platform-do
 import vscodeIcon from '../../project-assets/icons8-vs-code-50.png'
 import javaIcon from '../../project-assets/icons8-java-50.png'
 import Footer from '../../Components/Footer/Footer'
+
 const About = () => {
-  
+  const skills = [
+    { name: "HTML", icon: htmlIcon },
+    { name: "CSS", icon: cssIcon },
+    { name: "JavaScript", icon: javaScript },
+    { name: "React", icon: reactIcon },
+    { name: "Redux", icon: reduxIcon },
+    { name: "Node.js", icon: nodeIcon },
+    { name: "Express", icon: expressIcon },
+    { name: "Bootstrap", icon: bootstrapIcon },
+    { name: "Tailwind", icon: tailwindIcon },
+    { name: "Postman", icon: postmanIcon },
+    { name: "Mongo DB", icon: mongodbIcon },
+    { name: "VS Code", icon: vscodeIcon },
+    { name: "Git", icon: gitIcon },
+    { name: "Java", icon: javaIcon },
+    { name: "Problem Solving" },
+    { name: "DSA" },
+  ];
+
   return (
     <div id="about">
-          <p>I'm Devanshi Bilthare, a final year BCA student and MERN Stack developer passionate about creating visually compelling digital solutions. With problem-solving skills and a love for art and functionality, I weave intricate code structures for seamless user experiences. Excited for new opportunities, I'm ready to collaborate on innovative projects.</p>
-            <div className="skills">
-                <h2>Development Skills : </h2>
-                <div className="skill_btns">
-                    <button><img src={htmlIcon} alt="" />HTML</button>
-                    <button><img src={cssIcon} alt="" />CSS</button>
-                    <button><img src={javaScript} alt="" />JavaScript</button>
-                    <button><img src={reactIcon} alt="" />React</button>
-                    <button><img src={reduxIcon} alt="" />Redux</button>
-                    <button><img src={nodeIcon} alt="" />Node</button>
-                    <button><img src={expressIcon} alt="" />Express</button>
-                    <button><img src={bootstrapIcon} alt="" />BootStrap</button>
-                    <button><img src={tailwindIcon} alt="" />Tailwind</button>
-                    
-                    
-                    
-                </div>
-                <h2>Tools and Technologies:</h2>
-                <div className='skill_btns'>
-                    <button><img src={postmanIcon} alt="" />Postman</button>
-                    <button><img src={mongodbIcon} alt="" />Mongo DB</button>
-                    <button><img src={vscodeIcon} alt="" />vscode</button>
-                    <button><img src={gitIcon} alt="" />Git</button>
-                    {/* <button><img src={vscodeIcon} alt="" /></button> */}
-                    
-                </div>
-                <h2>Languages and Other skills</h2>
-                <div className="skill_btns">
-                <button><img src={javaIcon} alt="" />Java</button>
-                <button><img src={javaScript} alt="" />JavaScript</button>
-                <button>Problem solving</button>
-                <button>DSA</button>
-                </div>
-                <h2>LeetCode Stats</h2>
-           <img className='leetcode' src="https://leetcard.jacoblin.cool/Devanshi_Bilthare?theme=light&ext=heatmap" alt="LeetCode stats card" />
-            </div>
-            
-           
-            
-            <Footer/>
-        </div>
-  )
-}
+      {/* Intro Section */}
+      <section className="intro">
+        <p>
+          Hi, I'm <strong>Devanshi Bilthare</strong>, a passionate software
+          developer and a first-year Master's in Computer Applications (MCA)
+          student. With a strong foundation in both frontend and backend
+          development, I enjoy building intuitive, responsive, and real-time web
+          applications that solve real-world problems.
+          <br/>
+          I thrive on challenges, embodying a <em>never-give-up attitude</em> and
+          a consistent learning mindset. My journey has been shaped by hands-on
+          experiences, collaborations, and a drive to constantly improve my
+          skills in software development, particularly with the MERN stack.
+        </p>
+      </section>
 
-export default About
+      {/* Skills Section */}
+      <section className="skills">
+        <h2>Skills</h2>
+        <div className="skill-btns">
+          {skills.map((skill, index) => (
+            <button key={index}>
+              {skill.icon && <img src={skill.icon} alt={skill.name} />}
+              {skill.name}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section className="experience">
+        <h2>Experience</h2>
+
+        <div>
+          <h3>Frontend Developer Intern (3 months)</h3>
+          <ul>
+            <li>
+              Worked on a product using <strong>React.js</strong> and{" "}
+              <strong>Redux</strong>, focusing on debugging errors,
+              responsiveness, and delivering seamless user experiences.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Backend Developer (4 months)</h3>
+          <ul>
+            <li>
+              Developed and implemented APIs using <strong>Node.js</strong> and{" "}
+              <strong>MongoDB</strong>.
+            </li>
+            <li>
+              Integrated these APIs into the frontend using{" "}
+              <strong>React.js</strong> and <strong>Redux</strong>.
+            </li>
+            <li>
+              Enhanced the responsiveness and performance of the frontend.
+            </li>
+            <li>
+              Collaborated with clients to understand their needs and delivered
+              solutions for real-time, web-based software projects.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Achievements Section */}
+      <section className="achievements">
+        <h2>Achievements</h2>
+        <ul>
+          <li>
+            Completed <strong>100 Days of Code</strong> challenge on Twitter,
+            showcasing consistency in learning and problem-solving.
+          </li>
+          <li>
+            Achieved a <strong>220-day streak</strong> on LeetCode,
+            demonstrating dedication to improving coding skills.
+          </li>
+          <li>
+            Earned the <strong>200 Days Badge (2024)</strong> on LeetCode with a{" "}
+            <strong>1665 rating</strong>, highlighting expertise in data
+            structures and algorithms.
+          </li>
+        </ul>
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default About;

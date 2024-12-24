@@ -28,7 +28,8 @@ import funBook from '../../project-assets/funBook.png'
 import recipeHub from '../../project-assets/recipe1.png'
 import blog1 from '../../project-assets/blog1.png'
 import ECommerce from '../../project-assets/ECommerce.png'
-
+import ClockPoint from '../../project-assets/clock-point.png'
+import SahyogPlacement from '../../project-assets/sahyogplacement.png'
 
 
 const projectData = [
@@ -229,6 +230,26 @@ const projectData = [
       status: "completed",
       type:"backend"
     },
+    {
+      projName:"Clock Point",
+      img: ClockPoint,
+      live: "https://clock-point.vercel.app/",
+      github: "https://github.com/Devanshi-Bilthare/clock-point-user-guide",
+      skilused: ["Node Js","JavaScript","React Js", "Redux Toolkit", "API Integration","Postman","MongoDb"],
+      disc: "The Clock Point Attendance Management System is a robust web-based application designed to streamline attendance tracking, employee management, and salary processing for businesses.The system automates attendance and salary calculations across different employee roles, including labour, staff, office boys, guards, and sales personnel.",
+      status: "completed",
+      type:"software"
+    },
+    {
+      projName:"Sahyog Placement",
+      img: SahyogPlacement,
+      live: "https://sahyogplacement.com/",
+      github: "",
+      skilused: ["Node Js","JavaScript","React Js", "Redux Toolkit", "API Integration","Postman","MongoDb"],
+      disc: "The Clock Point Attendance Management System is a robust web-based application designed to streamline attendance tracking, employee management, and salary processing for businesses.The system automates attendance and salary calculations across different employee roles, including labour, staff, office boys, guards, and sales personnel.",
+      status: "completed",
+      type:"software"
+    }
   ];
 
   export default projectData;

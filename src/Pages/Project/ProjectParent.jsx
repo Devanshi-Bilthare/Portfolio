@@ -4,6 +4,7 @@ import FrontendProject from './FrontendProject'
 import LandingPages from './LandingPages'
 import Footer from '../../Components/Footer/Footer'
 import BackendProject from './BackendProject'
+import Softwares from './Softwares'
 
 
 
@@ -12,6 +13,7 @@ const ProjectParent = () => {
 
   return (
     <div>
+      <Softwares/>
       <BackendProject/>
         <FrontendProject/>
         <AnimatedProject/>

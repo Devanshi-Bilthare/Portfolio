@@ -9,7 +9,7 @@ const Home = () => {
     <div className="intro">
         <p>Hi, My name is</p>
         <h2>Devanshi Bilthare</h2>
-        <p className="para">Dedicated MERN Stack developer focused on creating visually captivating and user-centered digital solutions with precision coding and design excellence.</p>
+        <p className="para">  I craft clean, efficient, and user-focused web applications that combine intuitive design with powerful functionality. Let's turn ideas into impactful digital experiences!</p>
     </div>
 </div>
   <Footer/>
