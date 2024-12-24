@@ -246,7 +246,7 @@ const projectData = [
       live: "https://sahyogplacement.com/",
       github: "",
       skilused: ["Node Js","JavaScript","React Js", "Redux Toolkit", "API Integration","Postman","MongoDb"],
-      disc: "The Clock Point Attendance Management System is a robust web-based application designed to streamline attendance tracking, employee management, and salary processing for businesses.The system automates attendance and salary calculations across different employee roles, including labour, staff, office boys, guards, and sales personnel.",
+      disc: "I designed and implemented the backend for Sahyog Placement, enabling candidates to apply for jobs and track their applications while allowing companies to register, post jobs, and manage job postings through a streamlined business model. Additionally, I developed admin and employee dashboards to manage companies, jobs, candidates, and employees, with features such as job assignment, status tracking, candidate shortlisting, and exporting data to Excel for efficient workflow management.",
       status: "completed",
       type:"software"
     }
