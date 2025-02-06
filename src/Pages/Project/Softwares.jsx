@@ -4,7 +4,7 @@ import projectData from './ProjectData';
 function Softwares() {
   return (
     <div id="projects">
-    <h1>Softwares</h1>
+    <h1>MERN Projects</h1>
 <div className="projects_container">
 {projectData.map((project, index) => (
     project.type === 'software' ? (
