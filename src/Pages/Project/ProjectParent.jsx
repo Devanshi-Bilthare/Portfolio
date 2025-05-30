@@ -12,7 +12,7 @@ import Softwares from './Softwares'
 const ProjectParent = () => {
 
   return (
-    <div>
+    <div className='main-proj'>
       <Softwares/>
       <BackendProject/>
         <FrontendProject/>
