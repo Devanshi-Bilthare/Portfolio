@@ -40,7 +40,7 @@ const Navbar = () => {
         <Link to='/' onClick={handleNavItemClick}><p>Home</p></Link>
         <Link to='/about' onClick={handleNavItemClick}><p>About</p></Link>
         <Link to='/project' onClick={handleNavItemClick}><p>Projects</p></Link>
-        <Link to="https://drive.google.com/file/d/1N2-BdpL0Cizu-Om3PZ5eRf43cYEQRM9G/view?usp=sharing" onClick={handleNavItemClick}>
+        <Link to="https://drive.google.com/file/d/1DqcoU4y7R_l63dtuXCayvxV8aRE7_n0w/view?usp=sharing" onClick={handleNavItemClick}>
           <button>Resume</button>
         </Link>
       </div>
