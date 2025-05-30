@@ -30,6 +30,7 @@ import blog1 from '../../project-assets/blog1.png'
 import ECommerce from '../../project-assets/ECommerce.png'
 import ClockPoint from '../../project-assets/clock-point.png'
 import SahyogPlacement from '../../project-assets/sahyogplacement.png'
+import Zyberra from '../../project-assets/Zyberra.png'
 
 
 const projectData = [
@@ -247,6 +248,16 @@ const projectData = [
       github: "",
       skilused: ["Node Js","JavaScript","React Js", "Redux Toolkit", "API Integration","Postman","MongoDb"],
       disc: "I designed and implemented the backend for Sahyog Placement, enabling candidates to apply for jobs and track their applications while allowing companies to register, post jobs, and manage job postings through a streamlined business model. Additionally, I developed admin and employee dashboards to manage companies, jobs, candidates, and employees, with features such as job assignment, status tracking, candidate shortlisting, and exporting data to Excel for efficient workflow management.",
+      status: "completed",
+      type:"software"
+    },
+    {
+      projName:"ZYBERRA",
+      img: Zyberra,
+      live: "https://zyberra-frontend.vercel.app/",
+      github: "https://github.com/Devanshi-Bilthare/Zyberra-user-guide",
+      skilused: ["Voice Recognition API","Node Js","Razor Pay","Vite", "Redux Toolkit","MongoDb"],
+      disc: "Zyberra is a full-stack eCommerce web application for digital gadgets, featuring user authentication, wishlist, cart, and a secure checkout flow. It includes a fully functional admin panel for managing products, categories, users, and orders, with responsive UI and dark/light mode support.",
       status: "completed",
       type:"software"
     }
