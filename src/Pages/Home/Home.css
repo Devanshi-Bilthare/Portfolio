@@ -1,46 +1,54 @@
-.page1{
+.page1 {
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box; /* important so padding doesn’t increase width */
 }
 
-.page1 .intro{
+.page1 .intro {
     width: 60%;
     margin-top: 20vh;
 }
 
-.intro p{
+.intro p {
     font-size: 30px;
 }
 
-.page1 .intro h2{
+.page1 .intro h2 {
     font-size: 5vw;
-    margin:3vh 0 0 2vh;
+    margin: 3vh 0 0 2vh;
 }
 
-.page1 .intro .para{
+.page1 .intro .para {
     font-size: 1.7vw;
-    font-weight: 100px;
-    margin:3vh 6vw 0 0;
+    /* font-weight: 100px;  <-- invalid value, maybe you meant font-weight: 100? */
+    font-weight: 100;
+    margin: 3vh 6vw 0 0;
 }
 
-@media (max-width:600px) {
-    .page1{
-        padding: 0;
+@media (max-width: 600px) {
+    .page1 {
+        padding-left: 5%;
+        padding-right: 5%;
         margin: 0;
     }
-    .page1 .intro{
+
+    .page1 .intro {
         padding: 0;
         width: 100%;
         margin-top: 10vh;
     }
 
-   .page1 .intro h2{
+    .page1 .intro h2 {
         font-size: 15vw;
+        margin-left: 0; /* remove 2vh left margin on small screens */
     }
 
-    .page1 .intro .para{
+    .page1 .intro .para {
         font-size: 5vw;
+        margin-right: 0; /* remove 6vw right margin on small screens */
     }
 }
