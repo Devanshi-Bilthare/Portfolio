@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to='/'><p>Home</p></Link>
         <Link to='/about'><p>About</p></Link>
         <Link to='/project'><p>Projects</p></Link>
-        <Link to="https://drive.google.com/file/d/1bn1V7-ylfhq9YehY0-eJlZeXBhCpPEMx/view?usp=sharing">
+        <Link to="https://drive.google.com/file/d/1N1CzUANxyf6T8zKCDdnSGcx6nC-K0oEB/view?usp=sharing">
           <button>Resume</button>
         </Link>
       </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
         <Link to='/' onClick={handleNavItemClick}><p>Home</p></Link>
         <Link to='/about' onClick={handleNavItemClick}><p>About</p></Link>
         <Link to='/project' onClick={handleNavItemClick}><p>Projects</p></Link>
-        <Link to="https://drive.google.com/file/d/1DqcoU4y7R_l63dtuXCayvxV8aRE7_n0w/view?usp=sharing" onClick={handleNavItemClick}>
+        <Link to="https://drive.google.com/file/d/1N1CzUANxyf6T8zKCDdnSGcx6nC-K0oEB/view?usp=sharing" onClick={handleNavItemClick}>
           <button>Resume</button>
         </Link>
       </div>
